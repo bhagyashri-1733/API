@@ -1,0 +1,15 @@
+.photo{
+    border-radius:30px;
+    border: 15px solid white;
+
+}
+.photo:hover{
+    color: grey;
+    opacity:70%;
+}
+.poho{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+}

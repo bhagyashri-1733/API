@@ -1,0 +1,123 @@
+.img{
+    height:30px;
+    width: 35px;
+
+}
+.navbar{
+    color: green;
+    
+}
+.home{
+    width:60px;
+    
+    text-align:center;
+    
+}
+.home:hover{
+    padding:10px;
+    
+    background-color:black;
+    border-radius: 16px;
+    text-align: center;
+}
+.create{
+    width: 57px;
+    text-align: center;
+    
+}
+.create:hover{
+    padding:10px;
+    border: 10px;
+    background-color:black;
+    border-radius: 16px;
+    text-align:center;
+    text-align: center;
+
+}
+.explore{
+    width: 80px;
+    text-align: center;
+}
+.explore:hover{
+    padding:10px;
+    border: 10px;
+    background-color:black;
+    border-radius: 16px;
+    text-align:center;
+}
+.notifi{
+    height:30px;
+    width: 30px;
+    
+}
+.notifi:hover{
+    padding:10px;
+    
+    background-color:gray;
+    border-radius: 40px;
+    
+}
+.message{
+    height:30px;
+    width: 30px;
+    padding-left: 25px;
+}
+.message:hover{
+    padding:10px;
+    
+    background-color:gray;
+    border-radius: 40px;
+}
+
+.profile{
+    height:30px;
+    width: 30px;
+    padding-left: 30px;
+}
+.profile:hover{
+    padding:10px;
+    
+    background-color:gray;
+    border-radius: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-start;
+    
+    align-items: center;
+    padding: 1rem;
+    
+    color: black;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 1rem;
+
+    
+  }
+  
+  .search-bar input {
+    width: 95%;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 2px;
+    border-radius: 15px;
+    color: gray;
+
+    
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .box{
+    border: 10px solid white;
+    width:350px;
+    height: 350px;
+    object-fit: cover;
+
+  }
